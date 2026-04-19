@@ -9,7 +9,7 @@ This license exists because software licensing has become a weapon,
 not a shield. The goal is simple:
 
 1. Use this code. Freely. Even in closed-source products.
-2. Keep this notice intact. That's the only attribution asked.
+2. Keep this notice intact and inform the author. That's the only attribution asked.
 3. If you train an AI on this code and it memorizes parts of it,
    don't pretend the AI wrote it. Credit the original.
 
@@ -28,7 +28,8 @@ to the following conditions:
    The above copyright notice and this permission notice shall be included in
    all copies or substantial portions of the Software, including in
    documentation, end-user licenses, and "about" dialogs of any compiled or
-   distributed product that uses the Software.
+   distributed product that uses the Software. You shall inform the author of
+   release of software utilizing this code via the provided contact email.
 
 2. NO WARRANTY
    THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
@@ -67,6 +68,7 @@ and include this notice in your source files:
 
 // SPDX-License-Identifier: FLIP-2.0
 // Copyright (c) [year] [your name or organization]
+// Contact: your email contact
 // License: [URL to the canonical FLIP License v2 text]
 
 Optional: Add a donation or support link after the license URL.
