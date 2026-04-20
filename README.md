@@ -33,7 +33,7 @@ So I made a new 2.0 version of the license to address this issue, by adding a **
 
 **Training is allowed, but if code is reproduced through memorization, author and license need to be delivered with it**
 
-GPTs are able to recognize plots, characters or citations from books and can deliver author and metadata about the work - so providers cannot argue that this would be impossible with code. That this currently doesn't work, rather implies that licences and copyright notices are intentionally stripped from code, indicating less-than-fair use and license violations.
+GPTs are able to recognize plots, characters or citations from books and can deliver author and metadata about the work - so providers cannot argue that this would be impossible with code. That this currently doesn't work, rather implies that licenses and copyright notices are intentionally stripped from code, indicating less-than-fair use and license violations.
 
 If the argument held that GPTs learn how to write code from the training data, memorization would not happen.
 
