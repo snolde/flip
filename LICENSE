@@ -1,7 +1,7 @@
-FLIP LICENSE v2 — For Less Ignorant People
+FLIP LICENSE v2.1 — For Less Ignorant People
 (And for the lawyers who have to read it)
 
-SPDX-LICENSE-IDENTIFIER: FLIP-2.0 (provisional - not yet registered)
+SPDX-LICENSE-IDENTIFIER: FLIP-2.1 (provisional - not yet registered)
 
 --- PREAMBLE ---
 
@@ -9,8 +9,7 @@ This license exists because software licensing has become a weapon,
 not a shield. The goal is simple:
 
 1. Use this code. Freely. Even in closed-source products.
-2. Keep this notice intact and inform the author if contact email is given. 
-   That's the only attribution asked.
+2. Ensure that the required attribution and copyright notices are preserved and easily accessible.
 3. If you train an AI on this code and it memorizes parts of it,
    don't pretend the AI wrote it. Credit the original.
 
@@ -30,8 +29,19 @@ to the following conditions:
    all copies or substantial portions of the Software, including in
    documentation, end-user licenses, and "about" dialogs of any compiled or
    distributed product that uses the Software. You shall inform the author of
-   release of software utilizing this code via the provided contact email, if it is
-   included in the notice.
+   any release of software utilizing this code via the provided contact email,
+   if it is included in the notice.
+
+1b. ATTRIBUTION SURVIVAL (Copyleft)
+    Any derivative work, modification, translation, or adaptation of this
+    Software (collectively, "Derivative Works") must include the same
+    attribution notice as required in Section 1. This requirement applies
+    to all Derivative Works, regardless of the extent of modification,
+    and must be passed on to any recipients of such Derivative Works.
+
+    For the purposes of this license, a Derivative Work includes any work
+    that contains, incorporates, or is based upon the Software, in whole
+    or in part, even if modified, merged, or combined with other works.
 
 2. NO WARRANTY
    THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
@@ -39,23 +49,24 @@ to the following conditions:
    FITNESS FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT.
 
 3. LIMITATION OF LIABILITY
-   IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER
-   LIABILITY, WHETHER IN CONTRACT, TORT, OR OTHERWISE, ARISING FROM, OUT OF,
-   OR IN CONNECTION WITH THE SOFTWARE.
+   TO THE FULLEST EXTENT PERMITTED BY LAW, IN NO EVENT SHALL THE AUTHOR OR
+   COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY,
+   WHETHER IN CONTRACT, TORT, OR OTHERWISE, ARISING FROM, OUT OF, OR IN
+   CONNECTION WITH THE SOFTWARE.
 
 4. AI TRAINING EXCEPTION
    Training machine learning models on this Software is permitted without
    additional conditions, EXCEPT:
 
-   If the model produces output that is substantially similar to this Software
-   (including but not limited to code structure, comments, variable names,
-   literal text, or unique patterns originating from this Software), then
-   that output MUST include:
+   If the model produces output that is a reproduction or substantial
+   adaptation of this Software (including but not limited to code structure,
+   comments, variable names, literal text, or unique patterns originating
+   from this Software), then that output MUST include:
 
    a) Clear attribution to the original author(s)
-   b) A reference to this license (FLIP License v2)
-   c) A functional hyperlink to the source repository (if distributed in
-      digital form)
+   b) A reference to this license (FLIP License v2.1)
+   c) A functional hyperlink to the source repository, or the full URL if a
+      hyperlink is not possible.
 
    No attribution is required for outputs that do not substantially resemble
    this Software. Mere statistical influence or stylistic similarity does
@@ -68,9 +79,9 @@ to the following conditions:
 To apply this license to your work, replace the bracketed information
 and include this notice in your source files:
 
-// SPDX-License-Identifier: FLIP-2.0
+// SPDX-License-Identifier: FLIP-2.1
 // Copyright (c) [year] [your name or organization]
 // Contact: your email contact (optional)
-// License: [URL to the canonical FLIP License v2 text]
+// License: [URL to the canonical FLIP License v2.1 text]
 
 Optional: Add a donation or support link after the license URL.
