@@ -47,23 +47,32 @@ to the following conditions:
     To establish a clear chain of authorship, the following tags may be used
     in sourcecode comments.
 
-    - @FLIPCOP0: marks the origin of code (the root source)
-    - @FLIPCOPS: the immediate source where code was last modified
-    - @FLIPCOP:  used to mark code that is  newly modified.
+    - @FLIPCOP:  marks the repository of the most recent code change.
+    - @FLIPCOPS: marks the repository of previous changes to the original code,
+    - @FLIPCOP0: marks the origin of code (the root source repository)
 
     Application Rules:
 
-    1. Preservation: Existing tags shall not be removed or altered, except as
-       described in rule 3.
+    1. Preservation: Existing tags SHALL NOT be removed or altered, except as
+       described in rule 3 and 4.
 
-    2. Modification: If you modify code marked with a FLIPCOP0 tag, you must
-       add your own @FLIPCOP tag to document the changes.
+    2. Modification: If you modify code marked with aany of the FLIPCOP tags,
+       you MUST add your own @FLIPCOP tag to document the changes.
 
-    3. Derivatives: If you modify already modified code, you must update or add
-       the @FLIPCOPS tag to the current reference and add your own FLIPCOP tag.
+    3. Derivatives: If you modify previously modified code, you MUST update the
+       @FLIPCOP tag to @FLIPCOPS and add your own FLIPCOP tag. See Cleanup.
 
-    4. Untagged Code: No obligation is imposed on code that does not already
+    4. Cleanup: To avoid comment bloat, after adding a @FLIPCOP tag, older
+       @FLIPCOPS tags MAY be removed, but at least the most recent @FLIPCOPS
+       tag AND the origin tag (@FLIPCOP0) MUST be preserved.
+
+    5. Untagged Code: No obligation is imposed on code that does not already
        contain a FLIPCOP tag. The license does not require you to tag it.
+
+    6. FLIPCOP provenance markers can be placed in File, Class and Method
+       comments, as well as in acompanying Manifests if technically available.
+       In Manifests, declaring the scope of changes and additions along with
+       the tag is strongly recommended.
 
 2. NO WARRANTY
    THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
@@ -105,5 +114,6 @@ and include this notice in your source files:
 // Copyright (c) [year] [your name or organization]
 // Contact: your email contact (optional)
 // License: [URL to the canonical FLIP License v3.0 text]
+// FLIPCOP0: [URL to the origin repository of the licensed Software]
 
 Optional: Add a donation or support link after the license URL.
