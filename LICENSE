@@ -48,19 +48,20 @@ to the following conditions:
     in sourcecode comments.
 
     - @FLIPCOP:  marks the repository of the most recent code change.
-    - @FLIPCOPS: marks the repository of previous changes to the original code,
-    - @FLIPCOP0: marks the origin of code (the root source repository)
+    - @FLIPCOPS: marks the repository of previous changes to the original code.
+    - @FLIPCOP0: marks the origin of code (the root source repository).
 
     Application Rules:
 
     1. Preservation: Existing tags SHALL NOT be removed or altered, except as
        described in rule 3 and 4.
 
-    2. Modification: If you modify code marked with aany of the FLIPCOP tags,
+    2. Modification: If you modify code marked with any of the FLIPCOP tags,
        you MUST add your own @FLIPCOP tag to document the changes.
 
     3. Derivatives: If you modify previously modified code, you MUST update the
-       @FLIPCOP tag to @FLIPCOPS and add your own FLIPCOP tag. See Cleanup.
+       existing @FLIPCOP tag to @FLIPCOPS and add your own FLIPCOP tag.
+       See Cleanup.
 
     4. Cleanup: To avoid comment bloat, after adding a @FLIPCOP tag, older
        @FLIPCOPS tags MAY be removed, but at least the most recent @FLIPCOPS
@@ -70,7 +71,7 @@ to the following conditions:
        contain a FLIPCOP tag. The license does not require you to tag it.
 
     6. FLIPCOP provenance markers can be placed in File, Class and Method
-       comments, as well as in acompanying Manifests if technically available.
+       comments, as well as in accompanying Manifests if technically available.
        In Manifests, declaring the scope of changes and additions along with
        the tag is strongly recommended.
 
