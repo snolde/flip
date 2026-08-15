@@ -12,7 +12,7 @@ If this matches what you want, FLIP v2 license might be for you.
 
 If in addition to this you want a chain of attribution, consider FLIP v2.1 with copyleft for attribution.
 
->**SOON:** The latest addition to the Flip family - version 3.0 - implementing a chain of code provenance, allowing to trace back the evolving history of code back to it's source.
+>**NEW:** The latest addition to the Flip family - version 3.0 - implementing a chain of code provenance, allowing to trace back the evolving history of code back to it's source.
 
 If you want to know more of my work or support it, you can do so at [ko-fi.com/snolde](https://ko-fi.com/snolde)
 

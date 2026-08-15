@@ -1,7 +1,7 @@
-FLIP LICENSE v2.1 — For Less Ignorant People
+FLIP LICENSE v3.0 — For Less Ignorant People
 (And for the lawyers who have to read it)
 
-SPDX-LICENSE-IDENTIFIER: FLIP-2.1 (provisional - not yet registered)
+SPDX-LICENSE-IDENTIFIER: FLIP-3.0 (provisional - not yet registered)
 
 --- PREAMBLE ---
 
@@ -43,6 +43,28 @@ to the following conditions:
     that contains, incorporates, or is based upon the Software, in whole
     or in part, even if modified, merged, or combined with other works.
 
+1c. CODE CHAIN OF PROVENANCE (FLIPCOP)
+    To establish a clear chain of authorship, the following tags may be used
+    in sourcecode comments.
+
+    - @FLIPCOP0: marks the origin of code (the root source)
+    - @FLIPCOPS: the immediate source where code was last modified
+    - @FLIPCOP:  used to mark code that is  newly modified.
+
+    Application Rules:
+
+    1. Preservation: Existing tags shall not be removed or altered, except as
+       described in rule 3.
+
+    2. Modification: If you modify code marked with a FLIPCOP0 tag, you must
+       add your own @FLIPCOP tag to document the changes.
+
+    3. Derivatives: If you modify already modified code, you must update or add
+       the @FLIPCOPS tag to the current reference and add your own FLIPCOP tag.
+
+    4. Untagged Code: No obligation is imposed on code that does not already
+       contain a FLIPCOP tag. The license does not require you to tag it.
+
 2. NO WARRANTY
    THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
    IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
@@ -64,7 +86,7 @@ to the following conditions:
    from this Software), then that output MUST include:
 
    a) Clear attribution to the original author(s)
-   b) A reference to this license (FLIP License v2.1)
+   b) A reference to this license (FLIP License v3.0)
    c) A functional hyperlink to the source repository, or the full URL if a
       hyperlink is not possible.
 
@@ -79,9 +101,9 @@ to the following conditions:
 To apply this license to your work, replace the bracketed information
 and include this notice in your source files:
 
-// SPDX-License-Identifier: FLIP-2.1
+// SPDX-License-Identifier: FLIP-3.0
 // Copyright (c) [year] [your name or organization]
 // Contact: your email contact (optional)
-// License: [URL to the canonical FLIP License v2.1 text]
+// License: [URL to the canonical FLIP License v3.0 text]
 
 Optional: Add a donation or support link after the license URL.
