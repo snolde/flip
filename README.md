@@ -10,15 +10,23 @@
 
 If this matches what you want, FLIP v2 license might be for you.
 
-If in addition to this you want a chain of attribution, consider FLIP v2.1 with copyleft for attribution.
+If in addition to this you want a chain of code provenance, consider FLIP v3.1.
 
->**NEW:** The latest addition to the Flip family - version 3.0 - implementing a chain of code provenance, allowing to trace back the evolving history of code back to its source.
+>**ATTENTION:** FLIP version 3.0 is to be considered deprecated and should no longer be used. Please use the revised v3.1
+> instead in the future. The reasons:
+>1. the term copyleft was used to grant the sticky nature of the provenance marker.
+    This causes a legal ambiguity about the question if the license is a literal copyleft license, which
+    is not the intention. The CoP is what is intended to propagate downstream.
+>2. The license was easy to misunderstand with the optional notification requirement, so this was changed to
+    an encouragement to notify the author on **first** release of a **new** project. The provenance marker already
+    allows to locate the origin of the codebase, so there is no need for more obligations
+ 
 
 If you want to know more of my work or support it, you can do so at [ko-fi.com/snolde](https://ko-fi.com/snolde)
 
-## FLIP v3.0 - Traceability and Provenance for Code
+## FLIP v3.1 - Traceability and Provenance for Code
 As a value addition for collaborative work with OSS I amended the Flip license with a chain-of-provenance tag system.
-Beyond the attribution for conributors' work, these tags help to find the right codebase along the path of the code's evolution.
+Beyond the attribution for contributors' work, these tags help to find the right codebase along the path of the code's evolution.
 
 Version 3.0 provides definitions and rules for a set of ```@FLIPCOP``` tags, which allow to trace back
 through code modifications by author and contributors, thereby facilitating contact
@@ -76,7 +84,7 @@ As a practical example, this can look like:
 
 The canonical FLIP License texts are available here as fixed releases:
 
-[Flip 2.0](https://github.com/snolde/flip/blob/v2.0/LICENSE) - [Flip 2.1 (copyleft)](https://github.com/snolde/flip/blob/v2.1/LICENSE) - [Flip 3.0 (provenance)](https://github.com/snolde/flip/blob/v3.0/LICENSE)
+[Flip 2.0](https://github.com/snolde/flip/blob/v2.0/LICENSE) - [Flip 2.1 (sticky)](https://github.com/snolde/flip/blob/v2.1/LICENSE) - [Flip 3.1 (provenance)](https://github.com/snolde/flip/blob/v3.1/LICENSE)
 
 ## Why do these licenses exist?
 
@@ -105,11 +113,11 @@ Let us make the world a fairer place - one license at a time.
 1. Copy the `LICENSE` file into your repository root
 2. Add this header to your source files:
 
-```c
+```
 // SPDX-License-Identifier: FLIP-<_version_>
 // Copyright (c) [year] [your name]
-// Contact: [optional — if provided, users must notify you]
+// Contact: [optional — if provided, users are encouraged to notify you]
 // License: https://github.com/snolde/flip/blob/<_version_>/LICENSE
-// @FLIPCOP0: [URL of the origin repository] (v3.0 only)
+// @FLIPCOP0: [URL of the origin repository] (v3.x only)
 ```
-(Note: Replace <_version_> with the version you are using, e.g., FLIP-2.1.)
+(Note: Replace <_version_> with the version you are using, e.g., FLIP-2.2.)
